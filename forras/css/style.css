@@ -2,6 +2,7 @@
 
 @media only screen and (max-width: 992px){
     h1{
+        color: white;
         font-family: "Marhey", sans-serif;
         font-size: 1.5rem !important;
         text-transform: uppercase;
@@ -34,6 +35,7 @@ h1,h2, footer, th{
 
 
 h1{
+    color: white !important;
     font-size: 3rem !important;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -46,17 +48,19 @@ footer{
 }
 
 #footerParagraph{
+    color: white !important;
     position: absolute;
-    bottom: 8px;
+    bottom: 5px;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.5rem !important;
+    font-size: 1.5em !important;
     text-transform: uppercase;
     letter-spacing: 3px;
     box-shadow: 5px 5px 10px black;
 }
 
 h2{
+    color: #1283b9 !important;
     text-decoration: underline;
     font-variant: small-caps;
     text-transform: capitalize;
@@ -110,3 +114,62 @@ table.db-bold{
 img.shadow{
     box-shadow: 1px 1px 3px #06435f;
 }
+
+.grid-container {
+    display: inline-grid;
+    column-gap: 5px;
+  }
+
+  .grid-item1{
+    filter: grayscale(60%);
+    border-radius: 5px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-start: 2;
+  }
+
+  .grid-item2{
+    filter: grayscale(60%);
+    border-radius: 5px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-start: 1;
+  }
+
+  .grid-item3{
+    filter: grayscale(60%);
+    border-radius: 5px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-start: 1;
+  }
+
+  .grid-item4{
+    filter: grayscale(60%);
+    border-radius: 5px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-start: 3;
+  }
+
+  .grid-item5{
+    filter: grayscale(60%);
+    border-radius: 5px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-start: 3;
+  }
+
+  .grid-item6{
+    filter: grayscale(60%);
+    border-radius: 5px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-start: 3;
+  }
