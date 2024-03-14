@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap');
+
+@media only screen and (max-width: 992px){
+    h1{
+        font-family: "Marhey", sans-serif;
+        font-size: 1.5rem !important;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        box-shadow: 5px 5px 10px black;
+    }
+}
+
+header{
+    height: 400px;
+    background-image: url(../img/balaton_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    background-color: #06435f !important;
+}
+
+nav li a:active{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+h1,h2, footer, th{
+    font-family: "Marhey", sans-serif;
+}
+
+
+h1{
+    font-size: 3rem !important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    box-shadow: 5px 5px 10px black;
+}
+
+footer{
+    position: relative;
+    text-align: center;
+}
+
+#footerParagraph{
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem !important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    box-shadow: 5px 5px 10px black;
+}
+
+h2{
+    text-decoration: underline;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+table{
+    box-shadow: 1px 1px 10px #06435f;
+    margin: auto;
+    background-color: #1284b941;
+}
+
+tr:hover{
+    background-color: #1284b9cc;
+}
+
+th{
+    font-weight: bold;
+    color: white;
+}
+
+td,th{
+    padding: 10px;
+}
+
+td{
+    border-bottom: 1px #06435f !important;
+    border-top: 1px #06435f !important;
+    border-collapse: collapse;
+}
+
+td:first-of-type{
+    width: 25%;
+}
+
+#tableMain{
+    background-color: #1283b9;
+    text-align: center;
+}
+
+#tableHeader{
+    background-color: #06435f;
+}
+
+table.db-bold{
+    font-weight: bold;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    color: #06435f;
+}
+
+img.shadow{
+    box-shadow: 1px 1px 3px #06435f;
+}
